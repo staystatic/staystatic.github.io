@@ -7,14 +7,21 @@
 
 body {
   font-family: $font-family; 
+  color:            #515151;
+  background-color: #fff;
+}
+}
+
+h1,h2,h3,h4,h5,h6 {
+ color: #313131;  
 }
 
 h1 {
-  border-bottom: 1px solid black;   
+  border-bottom: 1px solid #313131;
 }
 
 h2 {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #313131;
   font-weight: bold; 
 }
 
@@ -36,7 +43,7 @@ a, a:visited {
 
 a:hover {
   text-decoration: underline;
-  background-color: yellow;
+  // background-color: yellow;
 }
 
 
@@ -49,7 +56,7 @@ a:hover {
   }
   .small {
     font-size: 120%;
-    color: gray;
+    // color: gray;
     padding-left: 15px;
   }
 }
