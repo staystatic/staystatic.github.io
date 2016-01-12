@@ -5,6 +5,20 @@ title: Welcome
 
 # {{ page.title }}
 
+
+<div class="toc" markdown="1">
+Contents:
+
+* [What's Stay Static?](#whatis)
+* [Static Site Samples](#samples)
+* [Contributions Welcome](#contributions)
+* [License](#license)
+* [Questions? Comments?](#questions)
+</div>
+
+
+## What's Stay Static?  {#whatis}
+
 Interested in static site builders / generators?
 The Stay Static Series presents the world's greatest static site builders / generators in action.
 The sample site showcases:
@@ -14,7 +28,7 @@ The sample site showcases:
 3. Custom Content Types (e.g. Bookmarks 'n' Links)
 
 
-## Samples
+## Static Site Samples  {#samples}
 
 _Ruby_
 
@@ -25,19 +39,19 @@ _JavaScript_
 **Metalsmith** - [Sample Site](http://staystatic.github.io/sites/metalsmith), [Source](https://github.com/staystatic/metalsmith)
 
 
-## Contributions Welcome
+## Contributions Welcome  {#contributions}
 
 Is your static site builder / generator missing? Contributions welcome!
 Send in your pull requests / repos.
 
 
-## License
+## License  {#license}
 
 The static site samples are dedicated to the public domain. 
 Use it as you please with no restrictions whatsoever.
 
 
-## Questions? Comments?
+## Questions? Comments?   {#questions}
 
 Send them to along the the [wwwmake forum / mailing list](http://groups.google.com/group/wwwmake). Thanks!
 
