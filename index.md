@@ -25,6 +25,8 @@ _JavaScript_
 **Metalsmith** - [Sample Site](http://staystatic.github.io/sites/metalsmith), [Source](https://github.com/staystatic/metalsmith)
 
 
+## Contributions Welcome
+
 Is your static site builder / generator missing? Contributions welcome!
 Send in your pull requests / repos.
 
