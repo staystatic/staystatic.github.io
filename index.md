@@ -32,11 +32,11 @@ The sample site showcases:
 
 _Ruby_
 
-**Jekyll** - [Sample Site](http://staystatic.github.io/sites/jekyll), [Source](https://github.com/staystatic/jekyll)
+**Jekyll** - [Sample Site »](http://staystatic.github.io/sites/jekyll), [Source »](https://github.com/staystatic/jekyll)
 
 _JavaScript_
 
-**Metalsmith** - [Sample Site](http://staystatic.github.io/sites/metalsmith), [Source](https://github.com/staystatic/metalsmith)
+**Metalsmith** - [Sample Site »](http://staystatic.github.io/sites/metalsmith), [Source »](https://github.com/staystatic/metalsmith)
 
 
 ## Contributions Welcome  {#contributions}
