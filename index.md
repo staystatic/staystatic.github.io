@@ -34,6 +34,10 @@ _Ruby_
 
 **Jekyll** - [Sample Site](http://staystatic.github.io/sites/jekyll), [Source](https://github.com/staystatic/jekyll)
 
+_Hugo_
+
+**Hugo** - [Sample Site](http://staystatic.github.io/sites/hugo), [Source](https://github.com/staystatic/hugo)
+
 _JavaScript_
 
 **Metalsmith** - [Sample Site](http://staystatic.github.io/sites/metalsmith), [Source](https://github.com/staystatic/metalsmith)
@@ -53,5 +57,5 @@ Use it as you please with no restrictions whatsoever.
 
 ## Questions? Comments?   {#questions}
 
-Send them to along the the [wwwmake forum / mailing list](http://groups.google.com/group/wwwmake). Thanks!
+Send them along to the [wwwmake forum / mailing list](http://groups.google.com/group/wwwmake). Thanks!
 
