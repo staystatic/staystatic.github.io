@@ -34,7 +34,7 @@ _Ruby_
 
 **Jekyll** - [Sample Site](http://staystatic.github.io/sites/jekyll), [Source](https://github.com/staystatic/jekyll)
 
-_Hugo_
+_Go_
 
 **Hugo** - [Sample Site](http://staystatic.github.io/sites/hugo), [Source](https://github.com/staystatic/hugo)
 
