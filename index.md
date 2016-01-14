@@ -38,10 +38,11 @@ _Go_
 
 **Hugo** - [Sample Site](http://staystatic.github.io/sites/hugo), [Source](https://github.com/staystatic/hugo)
 
+<!--
 _JavaScript_
 
 **Metalsmith** - [Sample Site](http://staystatic.github.io/sites/metalsmith), [Source](https://github.com/staystatic/metalsmith)
-
+-->
 
 ## Contributions Welcome  {#contributions}
 
