@@ -27,6 +27,8 @@ The sample site showcases:
 2. Pages
 3. Custom Content Types (e.g. Bookmarks 'n' Links)
 
+![](i/samplesite.png)
+
 
 ## Static Site Samples  {#samples}
 
@@ -34,9 +36,13 @@ _Ruby_
 
 **Jekyll** - [Sample Site](http://staystatic.github.io/sites/jekyll), [Source](https://github.com/staystatic/jekyll)
 
+**webgen** - [Sample Site](http://staystatic.github.io/sites/webgen), [Source](https://github.com/staystatic/webgen)
+
+
 _Go_
 
 **Hugo** - [Sample Site](http://staystatic.github.io/sites/hugo), [Source](https://github.com/staystatic/hugo)
+
 
 <!--
 _JavaScript_
