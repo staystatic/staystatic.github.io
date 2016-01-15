@@ -21,13 +21,15 @@ Contents:
 
 Interested in static site builders / generators?
 The Stay Static Series presents the world's greatest static site builders / generators in action.
+
+<img src="i/samplesite.png" alt="" id="samplesite">
+
 The sample site showcases:
     
 1. Posts
 2. Pages
 3. Custom Content Types (e.g. Bookmarks 'n' Links)
 
-![](i/samplesite.png)
 
 
 ## Static Site Samples  {#samples}
