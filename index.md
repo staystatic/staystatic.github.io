@@ -22,7 +22,6 @@ Contents:
 Interested in static site builders / generators?
 The Stay Static Series presents the world's greatest static site builders / generators in action.
 
-<img src="i/samplesite.png" alt="" id="samplesite">
 
 The sample site showcases:
     
@@ -31,27 +30,10 @@ The sample site showcases:
 3. Custom Content Types (e.g. Bookmarks 'n' Links)
 
 
-
 ## Static Site Samples  {#samples}
 
-_Ruby_
+{% include sites.html %}
 
-[**Jekyll**](http://jekyllrb.com) - [[Live Sample Site]](http://staystatic.github.io/sites/jekyll) [[Source]](https://github.com/staystatic/jekyll)
-
-[**webgen**](http://webgen.gettalong.org) - [[Live Sample Site]](http://staystatic.github.io/sites/webgen) [[Source]](https://github.com/staystatic/webgen)
-
-
-_Go_
-
-[**Hugo**](http://gohugo.io) - [[Live Sample Site]](http://staystatic.github.io/sites/hugo), [[Source]](https://github.com/staystatic/hugo)
-
-
-
-<!--
-_JavaScript_
-
-**Metalsmith** - [Sample Site](http://staystatic.github.io/sites/metalsmith), [Source](https://github.com/staystatic/metalsmith)
--->
 
 ## Contributions Welcome  {#contributions}
 
