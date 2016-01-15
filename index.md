@@ -36,14 +36,15 @@ The sample site showcases:
 
 _Ruby_
 
-**Jekyll** - [Sample Site](http://staystatic.github.io/sites/jekyll), [Source](https://github.com/staystatic/jekyll)
+[**Jekyll**](http://jekyllrb.com) - [[Live Sample Site]](http://staystatic.github.io/sites/jekyll) [[Source]](https://github.com/staystatic/jekyll)
 
-**webgen** - [Sample Site](http://staystatic.github.io/sites/webgen), [Source](https://github.com/staystatic/webgen)
+[**webgen**](http://webgen.gettalong.org) - [[Live Sample Site]](http://staystatic.github.io/sites/webgen) [[Source]](https://github.com/staystatic/webgen)
 
 
 _Go_
 
-**Hugo** - [Sample Site](http://staystatic.github.io/sites/hugo), [Source](https://github.com/staystatic/hugo)
+[**Hugo**](http://gohugo.io) - [[Live Sample Site]](http://staystatic.github.io/sites/hugo), [[Source]](https://github.com/staystatic/hugo)
+
 
 
 <!--
