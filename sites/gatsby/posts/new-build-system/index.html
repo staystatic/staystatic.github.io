@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+ <html lang="en"><head><meta charset="utf-8"/><title>football.db - New Build System - Welcome ./Datafile | Gatsby Stay Static Site Sample</title><style>html{font-family:PT Serif,Georgia,Times New Roman,serif;font-size:20px;line-height:1.5}body{color:#515151;background-color:#fff}a{color:#b00800;text-decoration:none}a:focus,a:hover{text-decoration:underline}h1,h2,h3,h4,h5,h6{font-weight:400;color:#313131}h1,h2,h3{color:#b00800}ul{list-style-type:square}body{max-width:38rem;padding-left:1.5rem;padding-right:1.5rem;margin-left:auto;margin-right:auto}#header{border-bottom:1px solid #515151;margin-bottom:30px}#header,#header a{color:#515151;font-weight:700}#header a:focus,#header a:hover{text-decoration:none}#footer{text-align:center;font-size:80%}</style></head><body><div id="react-mount"><div data-reactroot="" data-reactid="1" data-react-checksum="-1934864177"><div id="header" data-reactid="2"><table style="width:100%;" data-reactid="3"><tbody data-reactid="4"><tr data-reactid="5"><td data-reactid="6"><a href="/sites/gatsby/" data-reactid="7">Gatsby Stay Static Site Sample</a></td><td style="text-align:right;" data-reactid="8"><a href="/sites/gatsby/about/" data-reactid="9">About</a></td></tr></tbody></table></div><div data-reactid="10"><div data-reactid="11"><div data-reactid="12"><div class="markdown" data-reactid="13"><h1 data-reactid="14">football.db - New Build System - Welcome ./Datafile</h1><p data-reactid="15">Aug 25, 2015</p><div data-reactid="16"><p>The sportdb command line tool includes a new build system (as a new and easier all-in-one option).  To try it - use the new Datafile - a mini language a.k.a. domain-specific language (DSL) that lets you setup new <code>football.db</code>s in minutes.</p>
+<p>For example, to setup a football.db for the World Cup 2014 use:</p>
+<p><code>./Datafile</code>:</p>
+<pre><code>world 'openmundi/world.db', setup: 'countries'
+
+football 'openfootball/national-teams'
+football 'openfootball/world-cup', setup: '2014'
+</code></pre>
+<p>Now run</p>
+<pre><code>$ sportdb build
+</code></pre>
+<p>The new build command will look for the <code>./Datafile</code> script in your working folder and</p>
+<ul>
+<li>Step 1) Download all datasets as zip archives (from GitHub) to <code>./tmp</code></li>
+<li>Step 2) Create all database tables</li>
+<li>Step 3) Read/import all datasets from the zip archives in <code>./tmp</code> (no need to unpack)</li>
+</ul>
+<p>That’s it.</p>
+</div></div></div><div data-reactid="17"><b data-reactid="18">News &#x27;n&#x27; Updates</b><ul data-reactid="19"><li data-reactid="20"><a href="/sites/gatsby/posts/new-repo-maps/" data-reactid="21">beer.db - New Repo /maps - Free &#x27;Full-Screen&#x27; Interactive Beer Maps w/ Brewery Listings</a></li><li data-reactid="22"><a href="/sites/gatsby/posts/new-build-system/" data-reactid="23">football.db - New Build System - Welcome ./Datafile</a></li><li data-reactid="24"><a href="/sites/gatsby/posts/new-season/" data-reactid="25">football.db - New 2015/16 Seasons - English Premier League, Bundesliga, And More</a></li></ul></div></div></div><div id="footer" data-reactid="26"><!-- react-text: 27 -->A <!-- /react-text --><a href="http://staystatic.github.io" data-reactid="28">Stay Static</a><!-- react-text: 29 --> Sample Site<!-- /react-text --></div></div></div><script src="/sites/gatsby/bundle.js?t=1468394914366"></script></body></html>

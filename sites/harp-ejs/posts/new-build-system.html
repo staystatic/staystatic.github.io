@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <title>football.db - New Build System - Welcome ./Datafile | Harp Stay Static Sample</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700|PT+Sans:400">
+  <link rel="stylesheet" href="/sites/harp-ejs/css/style.css">
+</head>
+
+  <body>
+    <!-- github ribbon
+     see https://github.com/blog/273-github-ribbons
+  -->
+
+<a href="https://github.com/staystatic/staystatic/tree/master/harp-ejs">
+  <img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/38ef81f8aca64bb9a64448d0d70f1308ef5341ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png">
+</a>
+
+    <div id="header">
+  <table width="100%">
+    <td>
+      <a href="/sites/harp-ejs/index.html">Harp Stay Static Sample</a>
+    </td>
+    <td style="text-align: right">
+      <!-- list of pages -->
+      <a href="/sites/harp-ejs/about.html">About</a>
+    </td>
+  </table>
+</div>
+
+
+    <div class="post">
+
+      <header class="post-header">
+        <h1 class="post-title">football.db - New Build System - Welcome ./Datafile</h1>
+        <p class="post-meta">2014-12-12</p>
+      </header>
+
+      <article class="post-main">
+        <p>The sportdb command line tool includes a new build system (as a new and easier all-in-one option).  To try it - use the new Datafile - a mini language a.k.a. domain-specific language (DSL) that lets you setup new <code>football.db</code>s in minutes. </p>
+<p>For example, to setup a football.db for the World Cup 2014 use:</p>
+<p><code>./Datafile</code>:</p>
+<pre><code>world &#39;openmundi/world.db&#39;, setup: &#39;countries&#39;
+
+football &#39;openfootball/national-teams&#39;
+football &#39;openfootball/world-cup&#39;, setup: &#39;2014&#39;
+</code></pre><p>Now run</p>
+<pre><code>$ sportdb build
+</code></pre><p>The new build command will look for the <code>./Datafile</code> script in your working folder and</p>
+<ul>
+<li>Step 1) Download all datasets as zip archives (from GitHub) to <code>./tmp</code></li>
+<li>Step 2) Create all database tables</li>
+<li>Step 3) Read/import all datasets from the zip archives in <code>./tmp</code> (no need to unpack)</li>
+</ul>
+<p>That&#39;s it.</p>
+      </article>
+
+    </div>
+
+    <div>
+        <b>More News 'n' Updates</b>
+        <ul>
+          
+            <li><a href="/sites/harp-ejs/posts/new-season">football.db - New 2015/16 Seasons - English Premier League, Bundesliga, And More</a></li>
+          
+            <li><a href="/sites/harp-ejs/posts/new-build-system">football.db - New Build System - Welcome ./Datafile</a></li>
+          
+            <li><a href="/sites/harp-ejs/posts/new-repo-maps">beer.db - New Repo /maps - Free 'Full-Screen' Interactive Beer Maps w/ Brewery Listings</a></li>
+          
+        </ul>
+    </div>
+
+    <div id="footer">
+    A <a href="http://staystatic.github.io">Stay Static</a> Sample Site
+</div>
+
+  </body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <title>football.db - New Build System - Welcome ./Datafile | Middleman Stay Static Sample Site</title>
+ 
+  <!-- CSS -->
+  <link href="http://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700|PT+Sans:400" rel="stylesheet" />
+  <link href="/sites/middleman/stylesheets/style.css" rel="stylesheet" />
+</head>
+
+  <body>
+
+    <div id="header">
+  <table width="100%">
+    <td>
+      <a href="/sites/middleman/">Middleman Stay Static Sample Site</a>
+    </td>
+    <td style="text-align: right">
+      <a href="/sites/middleman/about.html">About</a>  
+    </td>
+  </table>
+</div>
+
+
+    <div class="main">
+      
+<div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">football.db - New Build System - Welcome ./Datafile</h1>
+    <p class="post-meta">Dec 12, 2014</p>
+  </header>
+
+  <article class="post-main">
+    <p>The sportdb command line tool includes a new build system (as a new and easier all-in-one option).  To try it - use the new Datafile - a mini language a.k.a. domain-specific language (DSL) that lets you setup new <code>football.db</code>s in minutes.</p>
+
+<p>For example, to setup a football.db for the World Cup 2014 use:</p>
+
+<p><code>./Datafile</code>:</p>
+
+<pre><code>world 'openmundi/world.db', setup: 'countries' 
+
+football 'openfootball/national-teams' 
+football 'openfootball/world-cup', setup: '2014' 
+</code></pre>
+
+<p>Now run</p>
+
+<pre><code>$ sportdb build 
+</code></pre>
+
+<p>The new build command will look for the <code>./Datafile</code> script in your working folder and</p>
+
+<ul>
+  <li>Step 1) Download all datasets as zip archives (from GitHub) to <code>./tmp</code></li>
+  <li>Step 2) Create all database tables</li>
+  <li>Step 3) Read/import all datasets from the zip archives in <code>./tmp</code> (no need to unpack)</li>
+</ul>
+
+<p>That's it.</p>
+
+
+  </article>
+
+</div>
+
+<div>
+    <b>More News 'n' Updates</b>
+    <ul>
+        <li><a href="/sites/middleman/news/new-season.html">football.db - New 2015/16 Seasons - English Premier League, Bundesliga, And More</a></li>
+        <li><a href="/sites/middleman/news/new-build-system.html">football.db - New Build System - Welcome ./Datafile</a></li>
+        <li><a href="/sites/middleman/news/new-repo-maps.html">beer.db - New Repo /maps - Free 'Full-Screen' Interactive Beer Maps w/ Brewery Listings</a></li>
+    </ul>
+</div>
+
+
+    </div>
+    
+    <div id="footer">
+    A <a href="http://staystatic.github.io">Stay Static</a> Sample Site
+</div>
+
+
+  </body>
+</html>
