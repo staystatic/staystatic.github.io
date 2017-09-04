@@ -1,0 +1,2 @@
+webpackJsonp([60335399758886],{"./node_modules/json-loader/index.js!./.cache/json/layout-index.json":function(t,a){t.exports={data:{site:{siteMetadata:{title:"Gatsby (+GraphQL) Stay Static Site Sample"}}},layoutContext:{}}}});
+//# sourceMappingURL=path----c622219dd6f45a37b480.js.map
