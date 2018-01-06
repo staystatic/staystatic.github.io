@@ -10,7 +10,7 @@ title: Welcome
 Contents:
 
 * [What's Stay Static?](#whatis)
-* [Static Site Samples](#samples)
+* [Static Website Samples](#samples)
 * [Contributions Welcome](#contributions)
 * [License](#license)
 * [Questions? Comments?](#questions)
