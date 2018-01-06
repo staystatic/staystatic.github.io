@@ -44,7 +44,7 @@ Send in your pull requests / repos.
 
 ## License  {#license}
 
-The static site samples are dedicated to the public domain. 
+The static website samples are dedicated to the public domain. 
 Use it as you please with no restrictions whatsoever.
 
 
