@@ -24,7 +24,7 @@ or [Hacker News readers as Progressive Web Apps (HNPWA)](https://hnpwa.com) that
 the Stay Static Series presents the world's greatest static website compilers / builders / generators in action
 that helps you select a tool to build your next website.
 
-Let's buid modern, faster, better websites that run on any web server or even on "server-less" web storage services.
+Let's build modern, faster, better websites that run on any web server or even on "server-less" web storage services.
 No database or application server required. Upload your HTML, CSS, JS and media files and voila! That's it. 
 
 The one design, many samples showcases how to build a website with:
