@@ -25,7 +25,8 @@ the Stay Static Series presents the world's greatest static website compilers / 
 that helps you select a tool to build your next website.
 
 Let's build modern, faster, better websites that run on any web server or even on "server-less" web storage services.
-No database or application server required. Upload your HTML, CSS, JS and media files and voila! That's it. 
+No database or application server required (once built and ready-to-serve).
+Upload your HTML, CSS, JS and media files and voila! That's it. 
 
 The one design, many samples showcases how to build a website with:
     
