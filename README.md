@@ -1,3 +1,3 @@
 
-Stay Static Site - [`staystatic.github.io`](http://staystatic.github.io)
+Stay Static Website - [`staystatic.github.io`](http://staystatic.github.io)
 
