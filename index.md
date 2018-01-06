@@ -19,17 +19,23 @@ Contents:
 
 ## What's Stay Static?  {#whatis}
 
-Interested in static website compilers / builders / generators?
-The Stay Static Series presents the world's greatest static website compilers / builders / generators in action.
+Interested in building modern, faster, better websites that run on any web server or even on "server-less" web storage services?
+No database or application server required. Upload your HTML, CSS, JS and media files and voila! That's it. 
 
-The one design, many website samples showcases:
+Inspired by the tradition of [ToDoMVC](http://todomvc.com) that helps you select an MV* framework 
+or [HNPWA - Hacker News readers as Progressive Web Apps](https://hnpwa.com) that helps you select a progressive web stack, 
+the Stay Static Series presents the world's greatest static website compilers / builders / generators in action
+that helps you select a tool to build your next website.
+
+The one design, many samples showcases how to build a website with:
     
 1. Posts
 2. Pages
 3. Custom Content Types (e.g. Bookmarks 'n' Links)
 
 
-## Static Website Samples  {#samples}
+
+## Stay Static - One Design, Many Website Samples  {#samples}
 
 {% include sites.html %}
 
