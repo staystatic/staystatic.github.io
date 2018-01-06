@@ -22,8 +22,7 @@ Contents:
 Interested in static website compilers / builders / generators?
 The Stay Static Series presents the world's greatest static website compilers / builders / generators in action.
 
-
-The sample website showcases:
+The one design, many website samples showcases:
     
 1. Posts
 2. Pages
@@ -37,7 +36,7 @@ The sample website showcases:
 
 ## Contributions Welcome  {#contributions}
 
-Is your static website compiler / builder / generator missing? Contributions welcome!
+Is your favorite static website compiler / builder / generator missing? Contributions welcome!
 See the [Stay Static - Quick Starter Kit](https://github.com/staystatic/staystatic-starter) to start adding your Stay Static website sample!
 Send in your pull requests / repos.
 
