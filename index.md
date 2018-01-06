@@ -20,7 +20,7 @@ Contents:
 ## What's Stay Static?  {#whatis}
 
 Inspired by the tradition of [ToDoMVC](http://todomvc.com) that helps you select an MV* framework 
-or [Hacker News readers as Progressive Web Apps (HNPWA)](https://hnpwa.com) that helps you select a progressive web stack, 
+or [Hacker News readers as Progressive Web Apps (HNPWA)](https://hnpwa.com) that helps you select a progressive web app stack, 
 the Stay Static Series presents the world's greatest static website compilers / builders / generators in action
 that helps you select a tool to build your next website.
 
