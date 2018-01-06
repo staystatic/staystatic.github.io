@@ -19,13 +19,13 @@ Contents:
 
 ## What's Stay Static?  {#whatis}
 
-Interested in building modern, faster, better websites that run on any web server or even on "server-less" web storage services?
-No database or application server required. Upload your HTML, CSS, JS and media files and voila! That's it. 
-
 Inspired by the tradition of [ToDoMVC](http://todomvc.com) that helps you select an MV* framework 
 or [HNPWA - Hacker News readers as Progressive Web Apps](https://hnpwa.com) that helps you select a progressive web stack, 
 the Stay Static Series presents the world's greatest static website compilers / builders / generators in action
 that helps you select a tool to build your next website.
+
+Let's buid modern, faster, better websites that run on any web server or even on "server-less" web storage services.
+No database or application server required. Upload your HTML, CSS, JS and media files and voila! That's it. 
 
 The one design, many samples showcases how to build a website with:
     
@@ -49,7 +49,7 @@ Send in your pull requests / repos.
 
 ## License  {#license}
 
-The static website samples are dedicated to the public domain. 
+The stay static website samples are dedicated to the public domain. 
 Use it as you please with no restrictions whatsoever.
 
 
