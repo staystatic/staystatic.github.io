@@ -7,27 +7,16 @@
 </head>
 <body>
 
-  <div id="header">
-    <span class='big'>Stay Static &lt;/&gt; One Design, Many Samples</span><br>
-    <span class='small'>Website Compiler / Builder / Generator Showcase</span>
+  <header id="header">
+    <h1 class='big'>Stay Static &lt;/&gt; One Design, Many Samples</h1>
+    <h2 class='small'>Website Compiler / Builder / Generator Showcase</h2>
+  </header>
+
+  <div id="content">
+    {{ content }}
   </div>
 
-
-<!--
-  <div id="nav">
-
-    <a href="{{ site.path }}/index.html">Home</a> |
-
-    <a href="https://github.com/staystatic">Repos (Edit Me!)</a>
-  </div>
--->
-
-   
-    <div id="content">
-      {{ content }}
-    </div>
-
-    {% include footer.html %}
+  {% include footer.html %}
 
    
  <!-- github ribbon

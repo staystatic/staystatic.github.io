@@ -2,6 +2,19 @@
 ### note: will result in an all-in-one-file stylesheet e.g. style.css
 ---
 
+/*
+ * box model like it should be
+ *
+ * http://www.paulirish.com/2012/box-sizing-border-box-ftw/
+ */
+html {box-sizing: border-box}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
 @import 'settings';
 
 
@@ -9,6 +22,9 @@ body {
   font-family: $font-family; 
   color:            #515151;
   background-color: #fff;
+  padding: 40px;
+  max-width: 1200px;
+  margin: auto;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -16,12 +32,12 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 h1 {
-  border-bottom: 1px solid #313131;
+  margin-bottom: 40px;
 }
 
 h2 {
-  border-bottom: 1px solid #313131;
   font-weight: bold; 
+  margin-bottom: 20px;
 }
 
 
@@ -52,18 +68,19 @@ a:hover {
   .big {
     font-size: 340%;
     font-weight: bold;
+    margin-bottom: 20px;
   }
   .small {
     font-size: 120%;
-    // color: gray;
-    padding-left: 15px;
+    opacity: 0.4;
   }
 }
 
 #footer {
+  margin-top: 80px;
   text-align: center;
   font-size: 80%;
-  // color: gray;
+  opacity: 0.6;
 }
 
 
@@ -82,6 +99,7 @@ a:hover {
 
 #content {
   padding: 0.5em; 
+  line-height: 1.5;
 }
 
 
@@ -99,28 +117,25 @@ pre,
   background: #f3f3f3;
 }
 
-/*
-.programlisting
-{
-   color: white;
-   background-color: black;
-   padding: 0.5em;
-}
-*/
-
-
 .toc
 {
-   width: 35%;
    float: right;
-   /* border: silver solid 1pt; */
-   border: #bbb solid 1pt;
-   background-color: #eeeeee;
-   font-size: 80%;
+   margin-top: 80px;
+   margin-bottom: 20px;
+   margin-left: 20px; 
+   padding: 15px 30px;
+   border: #ddd solid 1pt;
+   border-radius: 3px;
+   background-color: rgba(238, 238, 238, 0.4);
 
    /* first paragraph in toc is toc-title;
            use prediciate too to make sure we only get the first one??
            e.g. p:first-child ??   */
+           
+   ul {
+    margin: 0;
+    padding: 15px;
+   }
    p {
      text-align: center;
      font-weight: bold;

@@ -1,23 +1,32 @@
 
+.language {
+  font-weight: 200;
+  margin-top: 30px;
+  border-bottom: 1px solid #eee;
+}
+
+.sites {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
 .site {
-    display: inline-block;
-    vertical-align: top;
-    text-align: center;
-
-    width: 294px;   /* note: 270(10+10? left+right padding?)+24px add margin+border */
-    background-color: white;
-    margin-bottom: 24px;  // was: 15px;
-    margin-right: 24px;   // was: 15px;
-    padding: 10px 15px;
-
-    .site-info {
-      margin-bottom: 10px;
-    }
-
-    .site-preview img   {
-      border: 1px solid #bbb;
-      width: 250px; height: auto;
-    }
- 
-  } // .site
+  flex-basis: 25%;
+  padding: 30px 0;
   
+  .site-link {
+    font-size: 20px;
+    font-weight: 800;
+  }
+  
+  .site-links {
+    font-size: 11px;
+  }
+  
+  .site-source-link {
+    border-right: 1px solid grey;
+    padding-right: 4px;
+  }
+
+} // .site
