@@ -1,0 +1,18 @@
+<!DOCTYPE html><html><head><meta charSet="utf-8"/><title>football.db - New Build System - Welcome ./Datafile | Cuttlebelle Stay Static Sample Site</title><link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700|PT+Sans:400"/><link rel="stylesheet" href="../../assets/css/style.css"/></head><body><a href="https://github.com/staystatic/staystatic/tree/master/cuttlebelle"><img style="position:absolute;top:0;right:0;border:0" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"/></a><div id="header"><table width="100%"><td><a href="../..">Cuttlebelle Stay Static Sample Site</a></td><td style="text-align:right"><a href="../../about">About</a></td></table></div><div class="main"><div class="post"><header class="post-header"><h1 class="post-title">football.db - New Build System - Welcome ./Datafile</h1><p class="post-meta">Dec 12, 2014</p></header><article class="post-main"><p>The sportdb command line tool includes a new build system (as a new and easier all-in-one option).  To try it - use the new Datafile - a mini language a.k.a. domain-specific language (DSL) that lets you setup new <code>football.db</code>s in minutes. </p>
+<p>For example, to setup a football.db for the World Cup 2014 use: </p>
+<p><code>./Datafile</code>: </p>
+<pre><code>world &#39;openmundi/world.db&#39;, setup: &#39;countries&#39; 
+
+football &#39;openfootball/national-teams&#39; 
+football &#39;openfootball/world-cup&#39;, setup: &#39;2014&#39; 
+</code></pre><p>Now run </p>
+<pre><code>$ sportdb build 
+</code></pre><p>The new build command will look for the <code>./Datafile</code> script in your working folder and </p>
+<ul>
+<li>Step 1) Download all datasets as zip archives (from GitHub) to <code>./tmp</code></li>
+<li>Step 2) Create all database tables </li>
+<li>Step 3) Read/import all datasets from the zip archives in <code>./tmp</code> (no need to unpack) </li>
+</ul>
+<p>That&#39;s it.</p>
+</article></div><div><b>More News &#x27;n&#x27; Updates</b><ul class="news"><li><a href="../new-season">football.db - New 2015/16 Seasons - English Premier League, Bundesliga, And More</a></li><li><a href=".">football.db - New Build System - Welcome ./Datafile</a></li><li><a href="../new-repo-maps">beer.db - New Repo /maps - Free &#x27;Full-Screen&#x27; Interactive Beer Maps w/ Brewery Listings</a></li></ul></div></div><div id="footer"><p>A <a href="http://staystatic.github.io">Stay Static</a> Sample Site</p>
+</div></body></html>
